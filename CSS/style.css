@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+body{
+    font-family: 'Basic', sans-serif;
+    margin:0px auto ;
+    max-width: 85%;
+    width: 100%;
+}
+
+:root{
+    --primary-color: #3730a3;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+
+}
+
+.navigation{
+    background-color:var(--primary-color);
+    color:var(--off-white);
+    padding: 1rem;
+    border-radius: 0.6rem;
+  
+}
+
+.navigation .navbrand{
+   /* padding-left: 0.6rem;*/
+    font-weight: bold;
+}
+
+
+.nav-list{
+
+    list-style-type: none;
+    
+}
+.nav-list li{
+    display: inline;
+    padding:0rem 2rem ;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:var(--off-white);
+}
+
+.nav-list{
+    text-align: right;
+    
+    /*max-width: 0.6rem 1rem;*/
+}
+
+
+.hero-image{
+    padding: 1rem 6rem;
+}
+
+.hero-heading{
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.heading-inverted{
+    color: var(--primary-color);
+}
+
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.section{
+    text-align: center;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    margin:2rem 0rem;
+    
+}
+
+
+.container{
+
+    padding:0rem 1rem;
+}
+
+.container-center{
+
+    max-width: 50%;
+    width: 100%;
+    margin:auto;
+}
+
+
+
+.link{
+    text-decoration: none;
+    box-sizing: border-box;
+   
+}
+
+.link-primary{
+    
+    background-color: var(--primary-color);
+    color:var(--off-white);
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.6rem;
+}
+
+
+.link-secondary{
+   
+    padding: 0.6rem 1.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.6rem;
+    color: var(--primary-color);
+}
+
+
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color:var(--off-white);
+    padding: 2rem 1rem;
+    border-radius: 0.6rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.links-non-bullet li{
+    
+    
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    padding: 0rem 2rem;
+    
+    
+}
+.flink{
+    text-decoration: none;
+    color: var(--off-white);
+}
+
+
