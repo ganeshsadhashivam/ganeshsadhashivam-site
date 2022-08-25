@@ -94,6 +94,7 @@ body{
 .link{
     text-decoration: none;
     box-sizing: border-box;
+    padding: 0.5rem 1rem;
    
 }
 
@@ -115,6 +116,32 @@ body{
 }
 
 
+/*projects.html styles */
+
+.list-non-bullet{
+list-style-type: none;
+padding-inline-start: 0px;
+}
+.show-case-list{
+    text-align: center;
+    margin:3rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     background-color: var(--primary-color);
@@ -124,24 +151,22 @@ body{
     border-radius: 0.6rem;
 }
 
-.footer .footer-header{
-    font-weight: bold;
+
+ .footer .footer-header{
+
     font-size: large;
-}
+    font-weight: bold;
+ }
 
-.links-non-bullet li{
-    
-    
-    list-style: none;
+ .list-non-bullet{
+    list-style-type: none;
+ }
+
+ .list-item-inline{
     display: inline;
-    text-decoration: none;
-    padding: 0rem 2rem;
-    
-    
-}
-.flink{
-    text-decoration: none;
+    padding: 0rem 0.5rem;
+ }
+
+ .footer .link{
     color: var(--off-white);
-}
-
-
+ }

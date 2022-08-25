@@ -2,8 +2,7 @@
 
 Hey Hi This my personal portfolio website
 
-i am learning
-i know
+i am learning i know
 1.HTML
 2.CSS
 3.JS
